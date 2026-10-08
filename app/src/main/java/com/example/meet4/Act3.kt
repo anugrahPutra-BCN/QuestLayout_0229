@@ -27,4 +27,10 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.Image
 
 @Composable
-fun ActivitasPertama(modifier: Modifier = Modifier)
+fun ActivitasPertama(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier
+            .padding(top = 100.dp)
+            .fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    )
