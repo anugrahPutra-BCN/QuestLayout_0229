@@ -83,3 +83,17 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 }
             }
         }
+
+        // Box placed correctly to hold the bottom-aligned copyright text
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(bottom = 50.dp),
+            contentAlignment = Alignment.BottomCenter
+        ) {
+            Text(
+                text = stringResource(id = R.string.copy)
+            )
+        }
+    }
+}
