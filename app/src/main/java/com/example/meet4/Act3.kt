@@ -25,3 +25,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.Image
+
+@Composable
+fun ActivitasPertama(modifier: Modifier = Modifier)
